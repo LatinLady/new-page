@@ -1,0 +1,90 @@
+/* Universal Selector */
+* {
+    margin:0;
+    padding:0;  
+  }
+  
+  /* Element Selectors */
+  body {
+    position: relative;
+    font-family: "Comic Sans Ms", sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+  }
+
+  header {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    line-height: 30px;
+    background-color:rgb(229, 128, 165);
+    border-bottom: 10px solid #f5b2f0;
+ }
+
+ main {
+    padding: 80px;
+ }
+
+  nav { 
+    padding: 20px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #FDF8F5;
+  }
+
+  li {
+    list-style: none;
+  }
+
+ nav li {
+    display: inline;
+    padding: 20px 20px;
+    }
+
+  button {
+    height: 30px;
+    width: 100px;
+    padding: auto;
+    background-color: lightgray;
+    color: black;
+    border-radius: 20px ;
+  }
+   footer {
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #4F4846;
+    color:gray;  
+    text-align: center;  
+  }
+
+  .img {
+    width: 400px;
+    height: 300px;
+
+  }
+
+  /*Utility Class*/
+.text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+}
+  
+/*Class and ID selectors*/
+#contact {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:#f5b2f0;
+    
+}
+
+.input-wrapper {
+    padding: 5px 0;
+}
+ 
